@@ -1,0 +1,421 @@
+/* Coded With Love BY {@BHZDEV} For 5Games.ir */
+/* Please do not delete the above text */
+
+/* Coded With Love BY {@BHZDEV} For 5Games.ir */
+/* Please do not delete the above text */
+
+/* Coded With Love BY {@BHZDEV} For 5Games.ir */
+/* Please do not delete the above text */
+
+/* Coded With Love BY {@BHZDEV} For 5Games.ir */
+/* Please do not delete the above text */
+
+/* Coded With Love BY {@BHZDEV} For 5Games.ir */
+/* Please do not delete the above text */
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: kalameh;
+}
+
+::selection {
+    color: yellow;
+    background: red; 
+}
+
+::-moz-selection {
+    color: yellow;
+    background: red;
+  }
+
+@font-face {
+    font-family: kalameh;
+    font-style: normal;
+    font-weight: 900;
+    src: url('../font/WebFonts/_Woff/KalamehWeb-Black.woff') format('woff');
+}
+@font-face {
+    font-family: kalameh;
+    font-style: normal;
+    font-weight: bold;
+    src: url('../font/WebFonts/_Woff/KalamehWeb-Bold.woff') format('woff');
+}
+
+@font-face {
+    font-family: kalameh;
+    font-style: normal;
+    font-weight: normal;
+    src: url('../font/WebFonts/_Woff/KalamehWeb-Regular.woff') format('woff');
+}
+
+header::before{
+    content: '';
+    width: 904px;
+    height: 876px;
+    background-image: radial-gradient(#ff00dd 38%, #ffffff 0%);
+    position: absolute;
+    filter: blur(101px);
+    opacity: 0.2;
+    top: -450px;
+    right: -350px;
+    z-index: -1;
+}
+
+@media screen and (max-width:550px) {
+
+    header::before{
+        content: '';
+        width: 245px;
+        height: 231px;
+        background-image: radial-gradient(#ff00dd 38%, #ffffff 0%);
+        position: absolute;
+        filter: blur(101px);
+        opacity: 1;
+        top: -50px;
+        right:-50px;
+        -webkit-filter: blur(101px);
+}
+
+}
+
+.hover-rotate{
+    transition: all 0.8s ease-in;
+    -webkit-transition: all 0.8s ease-in;
+    -moz-transition: all 0.8s ease-in;
+    -ms-transition: all 0.8s ease-in;
+    -o-transition: all 0.8s ease-in;
+}
+
+.hover-rotate:hover{
+    transform: rotatey(360deg);
+    -webkit-transform: rotatey(360deg);
+    -moz-transform: rotatey(360deg);
+    -ms-transform: rotatey(360deg);
+    -o-transform: rotatey(360deg);
+}
+
+.hh{
+    position: relative;
+}
+
+.hh:hover {
+    color: #c624b8;  
+}
+.hh::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 1px;
+    background: #000;
+    transform: scale(0);
+    transition: all .7s;
+}
+.hh:hover::before {
+    background: #c024c6;
+    transform: scale(1);
+}
+
+.spiner{
+    color: rgb(255, 163, 235);
+}
+
+.hero-patt{
+    width: 30%;
+    position: absolute;
+    right: 0;
+    bottom: 100px;
+    z-index: -1;
+}
+
+
+.hero-gta {
+    animation: moveUpDown 2s linear infinite;
+}
+
+@keyframes moveUpDown {
+    0%, 100% {
+        transform: translatex(0);
+        -webkit-transform: translatex(0);
+        -moz-transform: translatex(0);
+        -ms-transform: translatex(0);
+        -o-transform: translatex(0);
+}
+    
+    50% {
+        transform: translatex(-20px);
+        -webkit-transform: translatex(-20px);
+        -moz-transform: translatex(-20px);
+        -ms-transform: translatex(-20px);
+        -o-transform: translatex(-20px);
+}
+}
+
+.option-item::before{
+    content: '';
+    position: absolute;
+    width: 20%;
+    height: 40%;
+    bottom: -1px;
+    right: -1px;
+    border-bottom: 3px solid;
+    border-right: 3px solid;
+    border-bottom-right-radius: 13px;
+    border-color: #ff00ea;
+    transition: all 0.8s;
+    -webkit-transition: all 0.8s;
+    -moz-transition: all 0.8s;
+    -ms-transition: all 0.8s;
+    -o-transition: all 0.8s;
+}
+
+.option-item::after{
+    content: '';
+    position: absolute;
+    width: 20%;
+    height: 40%;
+    bottom: -1px;
+    left: -1px;
+    border-bottom: 3px solid;
+    border-left: 3px solid;
+    border-bottom-left-radius: 13px;
+    border-color: #8c00ff;
+    transition: all 0.8s;
+    -webkit-transition: all 0.8s;
+    -moz-transition: all 0.8s;
+    -ms-transition: all 0.8s;
+    -o-transition: all 0.8s;
+}
+
+.option-item:hover::before{
+    width: 35%;
+    height: 75%;
+}
+
+
+.option-item:hover::after{
+    width: 35%;
+    height: 75%;
+}
+
+.download{
+    color: #ff00dd;
+}
+
+.download:hover{
+    color: #ff00dd;
+}
+
+.down-btn{
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+}
+
+.down-btn:hover{
+    transform: rotatez(20deg) ;
+    -webkit-transform: rotatez(10deg) ;
+    -moz-transform: rotatez(20deg) ;
+    -ms-transform: rotatez(20deg) ;
+    -o-transform: rotatez(20deg) ;
+}
+
+.down-btn-r{
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+}
+
+.down-btn-r:hover{
+    transform: rotatez(-20deg) ;
+    -webkit-transform: rotatez(-20deg) ;
+    -moz-transform: rotatez(-20deg) ;
+    -ms-transform: rotatez(-20deg) ;
+    -o-transform: rotatez(-20deg) ;
+}
+
+.events-text{
+    height: 200px;
+}
+
+.footer{
+    margin-top: 120px;
+}
+
+@media screen and (max-width:992px) {
+
+    .server-name{
+        font-size: 35px;
+    }
+
+    .hero{
+        width: 90%;
+    }
+
+    .hero-gta{
+        width: 70%;
+    }
+
+    .hero-patt{
+        width: 80%;
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        z-index: -1;
+    }
+
+    .why{
+        font-size: 25px;
+    }
+
+    .option-title{
+        font-size: 18px;
+    }
+
+    .option-text{
+        font-size: 13px;
+    }
+
+    .arrow-slide{
+        width: 30px;
+    }
+
+    .three-line{
+        position: absolute;
+        top: -29px;
+        right: -30px;
+        width: 50px;
+    }
+
+    .photos{
+        width: 90%;
+    }
+
+    .ft{
+        width: 90%;
+    }
+
+    .vid{
+        margin-top: 20px;
+    }
+
+    .texts{
+        margin-top: 30px;
+    }
+
+    span{
+        color: rgba(255,0,224,1);
+    }
+
+    .nav-links{
+        font-size: 18px;
+    }
+
+    .text-size{
+        font-size: 15px;
+    }
+
+    .khat{
+        margin-top: 33px;
+        margin-bottom: -7px;
+    }
+
+    .events-caption{
+        font-size: 14px;
+    }
+
+    .events-circle{
+        width: 60px;
+        top: 0;
+        right: 0;
+    }
+
+    .events-cont{
+        width: 90%;
+    }
+    
+}
+@media screen and (min-width:993px) {
+    
+    .hero{
+        width: 80%;
+    }
+    
+    .hero-gta{
+        width: 60%;
+    }
+
+    .arrow-slide{
+        width: 30px;
+    }
+
+    .three-line{
+        position: absolute;
+        top: -57px;
+        right: -57px;
+    }
+
+    .photos{
+        width: 80%;
+    }
+
+    span{
+        background: linear-gradient(90deg, rgba(119,0,255,1) 0%, rgba(175,0,255,1) 48%, rgba(255,0,224,1) 100%);
+        background-clip: text ;
+        -webkit-background-clip: text;
+        color: transparent;
+    }
+
+    .nav-links{
+        font-size: 18px;
+    }
+
+    .text-size{
+        font-size: 18px;
+    }
+
+    .khat{
+        margin-top: 40px;
+        margin-bottom: 20px;
+    }
+
+    .events-caption{
+        font-size: 15px;
+    }
+
+    .events-circle{
+        top: 0;
+        right: 0px;
+    }
+
+    .events-cont{
+        width: 100%;
+    }
+}
+
+/* Coded With Love BY {@BHZDEV} For 5Games.ir */
+/* Please do not delete the above text */
+
+/* Coded With Love BY {@BHZDEV} For 5Games.ir */
+/* Please do not delete the above text */
+
+/* Coded With Love BY {@BHZDEV} For 5Games.ir */
+/* Please do not delete the above text */
+
+/* Coded With Love BY {@BHZDEV} For 5Games.ir */
+/* Please do not delete the above text */
+
+/* Coded With Love BY {@BHZDEV} For 5Games.ir */
+/* Please do not delete the above text */
